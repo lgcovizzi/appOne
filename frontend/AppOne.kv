@@ -1,0 +1,8 @@
+#:kivy 2.1.0
+MDScreen:
+    name: "MDScreen"
+    MDBoxLayout:
+        orientation: "vertical"        
+        MDTopAppBar:
+            title: "MDTopAppBar"
+            right_action_items: [["menu", lambda x: app.test()],["account", lambda x: app.test()]]
